@@ -1,0 +1,234 @@
+.container{
+  font-family: "Poppins";
+  width: 1024px;
+  margin: 0 auto;
+}
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+}
+.listItem__header a{
+  font-size: 11px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+.navbar__icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.navbar__icon img{
+  margin-top: 5px;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+}
+
+/* welcomePage */
+.welcomePage {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: url(img/bg1.jpg) no-repeat;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+.vegan__card{
+  background-color: #39a372b2;
+  padding: 30px 50px;
+  box-sizing: border-box;
+  margin-left: 5%;
+  width: 50%;
+  height: 80%;
+}
+.vegan__card h1{
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 45px;
+}
+.vegan__card p{
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 18px;
+}
+.vegan__card button{
+  margin-top: 20px;
+  font-size: 12px;
+  height: 25px;
+  width: 135px;
+  border-radius: 20px;
+  border-style: none;
+  box-shadow: 0px -1px 14px 7px #7bba9d;
+  color: #bb7439;
+  font-weight: 600;
+}
+/* PRODUCT CARDS PAGE */
+.productsPage{
+  display: flex;
+  margin-top: 2rem;
+}
+.filter{
+  width: 40%;
+  margin-left: 2rem;
+}
+.productPage__cards{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.PP__card-item{
+  flex: 0 0 25%;
+  width: 200px;
+}
+.pp_card-img img{
+  width: 100%;
+}
+.pp__card-text{
+  text-align: center;
+}
+.category > p::before , .brand > p::before , .color > p::before{
+  content: "\25AA";
+  color: #e3e6ec;
+  background-color: #e3e6ec;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5rem;
+}
+.category > p > span , .brand > p > span , .color > p > span , .colors span{
+  color: rgb(186, 190, 189);
+}
+.color__grey > p::before{
+  content: "\25AA";
+  color: #b3b9c7;
+  background-color: #b3b9c7;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5rem;
+}
+.color__darkgrey > p::before{
+  content: "\25AA";
+  color: #d0c29d;
+  background-color: #d0c29d;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5rem;
+}.color__nude > p::before{
+  content: "\25AA";
+  color: #f0f2dc;
+  background-color: #f0f2dc;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5rem;
+}
+.hot__price  h3{
+  color: #97572b
+}
+.price {
+  vertical-align: bottom;
+}
+/* ADVETISING PAGE */
+.advertisingPage{
+  display: flex;
+  height: 35rem;
+}
+.plants{
+  background-image: url(img/bg_plants.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 2rem 6rem;
+  color: white;
+  font-weight: 800;
+}
+.plants button{
+  margin-top: 20px;
+  font-size: 12px;
+  height: 25px;
+  width: 135px;
+  border-radius: 20px;
+  border-style: none;
+  box-shadow: 0px -1px 14px 7px #bb733969;
+  color: #bb7439;
+  font-weight: 600;
+}
+.meals{
+  display: flex;
+  height: 100%;
+}
+.treat__bgIMG{
+  background-image: url(img/bg_treat.png);
+  background-size: cover;
+  height: 55%;
+}
+.treat{
+  background-color: #028f43;
+  text-align: center;
+  color: white;
+}
+.treat__content{
+  box-sizing: border-box;
+  padding: 0.5rem 3rem;
+}
+.treat__content p {
+  font-size: 11px;
+}
+.treat__content a{
+  text-decoration: none;
+  font-size: 8px;
+  color: white;
+  position: relative;
+}
+.treat__content a::after{
+ content: "\2192";
+ position: absolute;
+ top: -1px;
+ right: -20px;
+}
+.find{
+  background-color: #cbd816;
+  text-align: center;
+}
+.find__bgIMG{
+  background-image: url(img/burger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45%;
+}
+.find__content {
+  height: 55%;
+  box-sizing: border-box;
+  padding: 2rem 3rem;
+}
+.find__content a{
+  text-decoration: none;
+  font-size: 8px;
+  color: white;
+  position: relative;
+}
+.find__content a{
+  text-decoration: none;
+  font-size: 8px;
+  color: #ac6e00;
+  position: relative;
+}
+.find__content a::after{
+  content: "\2192";
+  position: absolute;
+  top: -1px;
+  right: -20px;
+  color: #ac6e00;
+ }
